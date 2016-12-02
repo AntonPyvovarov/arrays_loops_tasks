@@ -1,7 +1,12 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: anton
- * Date: 02.12.16
- * Time: 19:25
+
+  for ($i=0;$i<=100; $i++){
+    echo $i++;
+}
+
+/**for ($i=0;$i<=100;$i++){
+    if($i%2===0){
+        echo $i;
+    }
+}
  */
