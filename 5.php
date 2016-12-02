@@ -1,7 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: anton
- * Date: 02.12.16
- * Time: 12:15
- */
+$arr=['Коля'=>'200','Вася'=>'500','Петя'=>'400'];
+foreach ($arr as $key=>$value){
+    echo $key.' - Зарплата '.$value.' Доларов'.'<br>';
+}
