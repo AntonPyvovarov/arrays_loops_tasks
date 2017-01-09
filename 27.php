@@ -1,6 +1,6 @@
 <?php
-$row = rand(5, 9);
-$cols = rand(5, 20);
+$row = rand(5, 40);
+$cols = rand(5, 30);
 $colors = ['red', 'yellow', 'blue', 'gray', 'maroon', 'brown', 'green'];
 $count = count($colors);
 //$randIndex = rand(0, $count - 1);
@@ -24,7 +24,8 @@ $count = count($colors);
 <table border="1">
     <tbody >
     <?php
-    for ($i = 1; $i <= $row; $i++) {$randIndex = rand(0, $count - 1);
+    for ($i = 1; $i <= $row; $i++) {
+        $randIndex = rand(0, $count - 1);
         foreach ($colors as $key=>$value){
             if ($randIndex===$key){
                 $color=$value;
