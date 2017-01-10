@@ -1,8 +1,11 @@
 <?php
 $arr=['Понеділок','Вівторок','Середа','Четвер',"П'ятниця",'Субота','Неділя'];
-$day='Субота';
-foreach ($arr as $value){
-    if($value==$day){
+date_default_timezone_set('UTC');
+
+$day=date("N ");
+//echo $day;
+foreach ($arr as $key=>$value){
+    if($key==$day-1){
         echo '<i>'.' '.$value.'</i>';
     }
     else {
