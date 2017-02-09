@@ -7,8 +7,6 @@ $count = count($colors);
 
 /*style="background-color: <?php echo $color ?>"*/
 //create table
-
-
 ?>
 <!doctype html>
 <html lang="en">
@@ -46,9 +44,7 @@ $count = count($colors);
                 <?php echo rand(0, 400); ?>
                 </td><?php }; ?></tr>
         <?php } ?>
-
     </tbody>
 </table>
-
 </body>
 </html>

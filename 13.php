@@ -1,6 +1,6 @@
 <?php
 $html='<table border="1">';
-$html.='<thead><th>- </th>';
+$html.='<thead><th>0 </th>';
 for ($i=1;$i<=10;$i++){
     $html.='<th>'.$i.'</th>';
 }

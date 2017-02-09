@@ -1,5 +1,5 @@
 <?php
-$num=442158755745;
+$num=rand(100000000000,1700000000000000000);
 $arr = preg_split('//', $num, -1, PREG_SPLIT_NO_EMPTY);
 
 $count=0;
